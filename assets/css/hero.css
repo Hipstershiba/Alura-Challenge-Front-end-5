@@ -1,0 +1,31 @@
+.hero {
+    background: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 192px;
+    padding: 1rem;
+}
+
+.hero__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.hero__text {
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+.hero__button {
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: var(--azulAlura);
+    padding: .8rem 1rem;
+    width: 6rem;
+    justify-content: center;
+}
